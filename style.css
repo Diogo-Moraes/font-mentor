@@ -1,0 +1,57 @@
+
+html{
+    font-size: 62,5%;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(213,225,239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'outfit';
+
+}
+
+
+.attribution{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.card{
+  
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    height: 40rem;
+    width:   25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+
+.imagem{
+    border-radius: 5%;
+    max-width: 90%;
+    margin-bottom: 1rem;
+   
+    
+}
+
+.titulo{
+    margin-top: 1rem;
+    
+    width: 70%;
+    text-align: center;
+}
+.texto{
+    width: 70%;
+    text-align: center;
+}
+
